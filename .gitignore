@@ -1,0 +1,22 @@
+# ---------- 构建产物（build.bat 可重新生成）----------
+build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.res
+
+# ---------- 运行时 / 调试产物 ----------
+logs/
+dump/
+.pack/
+*.zip
+
+# ---------- 编辑器 / 系统 ----------
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*~
